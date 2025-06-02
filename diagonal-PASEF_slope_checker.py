@@ -234,7 +234,7 @@ link_label = ctk.CTkLabel(
     cursor="hand2"
 )
 link_label.grid(row=0, column=3, padx=(175, 10))
-link_label.bind("<Button-1>", lambda e: os.system("start https://github.com/kronigert/diagonal-PASEF_slope_checker/"))
+link_label.bind("<Button-1>", lambda e: os.system("start https://github.com/kronigert/diagonal-PASEF-Slope-Checker/"))
 
 
 
